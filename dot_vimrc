@@ -22,7 +22,7 @@ set textwidth=120
 " turn syntax highlighting on
 set t_Co=256
 syntax on
-colorscheme wombat256
+colorscheme wombat256mod
 let g:airline_theme='wombat'
 let g:airline_powerline_fonts = 1
 " turn line numbers on
@@ -44,7 +44,7 @@ filetype plugin on
 set tags=./tags
 
 " Install DoxygenToolkit from http://www.vim.org/scripts/script.php?script_id=987
-let g:DoxygenToolkit_authorName="Kevin Mace" 
+let g:DoxygenToolkit_authorName="AntBricks" 
 let g:DoxygenToolkit_commentType = "C++"
 let g:DoxygenToolkit_blockHeader="----------------------------------------------------------------------------"
 let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------" 
