@@ -105,8 +105,8 @@ call plug#begin('~/.vim/plugged')
 " NERD_tree.txt for help
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+" Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'vim-scripts/DoxygenToolkit.vim'
 Plug 'mileszs/ack.vim'
 Plug 'vim-airline/vim-airline'
